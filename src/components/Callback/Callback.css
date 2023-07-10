@@ -1,0 +1,209 @@
+.callback {
+    font-family: "Montserrat";
+    background-color: #fff;
+    min-height: 1020px;
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+
+.callback__background {
+    position: absolute;
+    background-image: url(../../img/prod-fon.svg);
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+}
+
+.callback__wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.callback__center {
+    display: flex;
+    max-width: 1013px;
+    border-radius: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0 93.5px;
+    position: absolute;
+    top: -98px;
+}
+
+.callback__image {
+    display: block;
+    width: 1008px;
+    height: 421px;
+    border-radius: 24px;
+    margin: 0px;
+    padding: 0px;
+    object-fit: contain;
+    z-index: 5;
+}
+
+.callback__photo {
+    display: block;
+    box-sizing: border-box;
+    border: 0;
+    width: 85px;
+    height: 85px;
+    border-radius: 44px;
+    border: none;
+    margin: 128px auto 32px;
+    padding: 0;
+    object-fit: contain;
+    z-index: 5;
+}
+
+.callback__rectangle {
+    width: 968px;
+    background: #84A178;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 0;
+    margin: 0;
+    z-index: 5;
+}
+
+.callback__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FCFCFC;
+    padding: 39px 109px 39px;
+    margin: 0;
+}
+
+.callback__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    text-align: center;
+    color: #131313;
+    padding: 0;
+    margin: 32px auto;
+}
+
+.callback__dotes {
+    margin: 0 auto 207px;
+    display: flex;
+    max-width: 90px;
+    min-height: 12px;
+}
+
+.callback__dot {
+    background-image: url(../../img/Ellipse-7.svg);
+    background: #D9D9D9;
+    width: 12px;
+    height: 12px;
+    margin: 9px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.callback__dot_active {
+    background: #84A178;
+}
+
+@media screen and (max-width: 1024px) {
+    .callback {
+        min-height: 980px;
+    }
+
+    .callback__wrap {
+        max-width: 704px;
+    }
+
+    .callback__center {
+        margin: 0 auto;
+        border-radius: 18px;
+        top: -164px;
+    }
+
+    .callback__image {
+        width: 704px;
+        height: 100%;
+        border-radius: 18px;
+        object-fit: cover;
+    }
+
+    .callback__photo {
+        margin: 60px auto 28px;
+    }
+
+    .callback__rectangle {
+        width: 100%;
+        min-height: 138px;
+    }
+
+    .callback__text {
+        font-size: 14px;
+        line-height: 26px;
+        padding: 29px 80px;
+    }
+
+    .callback__dotes {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .callback__center {
+        width: 279px;
+        margin: 0 19.5px;
+        top: -24px;
+    }
+
+    .callback__image {
+        width: 100%;
+        border-radius: 7px;
+    }
+
+    .callback__photo {
+        margin: 50px auto 22px;
+    }
+
+    .callback__rectangle {
+        min-height: 156px;
+        border-radius: 10px;
+    }
+
+    .callback__text {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 34px 39px;
+    }
+
+    .callback__name {
+        font-size: 16px;
+        margin: 30px auto 14px;
+    }
+
+    .callback__dotes {
+        margin: 0 auto 48px;
+    }
+}

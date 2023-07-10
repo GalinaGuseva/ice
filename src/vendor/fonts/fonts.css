@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./Montserrat/Montserrat-Regular.ttf") format("truetype"),
+        url("./Montserrat/montserrat-regular.woff2") format("woff2"),
+        url("./Montserrat/montserrat-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./Montserrat/Montserrat-Medium.ttf") format("truetype"),
+        url("./Montserrat/montserrat-medium.woff2") format("woff2"),
+        url("./Montserrat/montserrat-medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./Montserrat/Montserrat-SemiBold.ttf") format("truetype"),
+        url("./Montserrat/montserrat-semibold.woff2") format("woff2"),
+        url("./Montserrat/montserrat-semibold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./Montserrat/Montserrat-Bold.ttf") format("truetype"),
+        url("./Montserrat/montserrat-bold.woff2") format("woff2"),
+        url("./Montserrat/montserrat-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("./Montserrat/Montserrat-ExtraBold.ttf") format("truetype"),
+        url("./Montserrat/montserrat-extrabold.woff2") format("woff2"),
+        url("./Montserrat/montserrat-extrabold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./Montserrat/Montserrat-Black.ttf") format("truetype"),
+        url("./Montserrat/montserrat-black.woff2") format("woff2"),
+        url("./Montserrat/montserrat-black.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Seymour One';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("./SeymourOne/SeymourOne.ttf") format("truetype"),
+        url("./SeymourOne/SeymourOne.woff2") format("woff2"),
+        url("./SeymourOne/SeymourOne.woff") format("woff");
+}

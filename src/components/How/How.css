@@ -1,0 +1,360 @@
+.how {
+    font-family: "Montserrat";
+    font-style: normal;
+    color: #FCFCFC;
+    margin: 0;
+}
+
+.how__center {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 16px 0;
+}
+
+.how__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 82px;
+}
+
+.how__overtitle {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 auto 12px;
+}
+
+.how__title {
+    font-family: 'Seymour One';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+.how__container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.how__image {
+    width: 500px;
+    height: 529px;
+    position: relative;
+    display: block;
+    padding: 0;
+}
+
+.how__img {
+    display: block;
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    object-fit: contain;
+    border-radius: 250px;
+    width: 490px;
+    height: 490px;
+    position: absolute;
+    top: 39px;
+    z-index: 5;
+}
+
+.how__circle {
+    position: absolute;
+    display: block;
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9;
+    box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+    border-radius: 250px;
+    top: 0;
+}
+
+.how__right-block {
+    width: 463px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.how__textblock {
+    margin-bottom: 40px;
+}
+
+.how__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    padding: 0;
+    margin-bottom: 8px;
+}
+
+.how__button {
+    display: flex;
+    box-sizing: border-box;
+    border: none;
+    width: 164px;
+    height: 42px;
+    background: #F8D24E;
+    border-radius: 10px;
+    padding: 12.5px 28px;
+    align-items: center;
+}
+
+.how__button-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.how__button-icon {
+    background-image: url(../../img/more.svg);
+    width: 12px;
+    height: 12px;
+    margin-left: 7px;
+    border: none;
+    object-fit: contain;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.how__advantages {
+    list-style: none;
+    max-width: 1168px;
+    padding: 99px 0 180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.how__item {
+    max-width: 368px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.how__icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.how__number {
+    margin: 34px auto 14px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 71px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.how__pref {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 176%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .how__center {
+        max-width: 768px;
+        padding: 60px 32px 0;
+    }
+
+    .how__header {
+        margin: 0 auto 72px;
+    }
+
+    .how__overtitle {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .how__title {
+        font-size: 34px;
+        line-height: 43px;
+    }
+
+    .how__image {
+        width: 336px;
+        height: 356px;
+    }
+
+    .how__img {
+        width: 335px;
+        height: 335px;
+        top: 25.9px;
+        border-radius: 166px;
+    }
+
+    .how__circle {
+        width: 335px;
+        height: 330px;
+        box-shadow: 0px 5.30813px 19.9055px rgba(153, 114, 23, 0.25);
+        border-radius: 166px;
+    }
+
+    .how__right-block {
+        width: 336px;
+        margin-left: 32px;
+    }
+
+    .how__text {
+        font-size: 12px;
+        line-height: 176%;
+    }
+
+    .how__advantages {
+        max-width: 616px;
+        padding: 74px 0 204px;
+        gap: 80px;
+    }
+
+    .how__item {
+        width: 152px;
+    }
+
+    .how__number {
+        margin: 32px auto 16px;
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+    .how__pref {
+        font-size: 14px;
+        line-height: 174%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .how {
+        min-height: 1564px;
+    }
+
+    .how__center {
+        max-width: 320px;
+        padding: 60px 20px 0;
+        height: 100%;
+    }
+
+    .how__header {
+        max-width: 211px;
+        margin: 0 auto 32px;
+    }
+
+    .how__overtitle {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .how__title {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .how__container {
+        flex-direction: column;
+    }
+
+    .how__image {
+        width: 279px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .how__img {
+        border-radius: 1038px;
+        width: 278px;
+        height: 278px;
+        top: 22px;
+    }
+
+    .how__circle {
+        width: 278px;
+        height: 278px;
+        box-shadow: 0px 4.48583px 16.8218px rgba(153, 114, 23, 0.25);
+        border-radius: 140px;
+    }
+
+    .how__right-block {
+        width: 220px;
+        margin: 40px auto 0;
+    }
+
+    .how__textblock {
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    .how__text {
+        font-size: 12px;
+        line-height: 162%;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 4px;
+    }
+
+    .how__button {
+        margin: 38px auto 0;
+    }
+
+    .how__advantages {
+        width: 230px;
+        height: 570px;
+        padding: 43px 0 60px;
+        margin: 0 auto;
+        display: flex;
+        gap: 28px;
+        flex-direction: column;
+    }
+
+    .how__item {
+        width: 230px;
+    }
+
+    .how__number {
+        margin: 16px auto 18px;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .how__pref {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+    }
+}
