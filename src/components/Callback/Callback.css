@@ -60,6 +60,22 @@
     z-index: 5;
 }
 
+.callback__customers {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.callback__item {
+    display: none;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.callback__item_active {
+    display: flex;
+}
+
 .callback__photo {
     display: block;
     box-sizing: border-box;

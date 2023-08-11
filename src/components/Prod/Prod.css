@@ -178,6 +178,8 @@
 }
 
 .prod__item-arrow {
+    border: none;
+    text-align: center;
     background-image: url(../../img/arrow-black.svg);
     width: 40px;
     height: 12px;
@@ -185,7 +187,7 @@
     object-fit: contain;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 .prod__item-arrow:hover {
