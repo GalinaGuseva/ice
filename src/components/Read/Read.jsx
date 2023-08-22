@@ -7,7 +7,7 @@ export default function Read() {
     <div className='read'>
       <div className='read__container'>
         <h3 className='read__title'>Как делают мороженое?</h3>
-        <div class='read__movie'>
+        <div className='read__movie'>
           <iframe
             width='560'
             height='315'

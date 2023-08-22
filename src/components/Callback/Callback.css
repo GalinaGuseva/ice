@@ -60,20 +60,34 @@
     z-index: 5;
 }
 
-.callback__customers {
-    list-style: none;
-    margin: 0;
+.callback__customers { 
+    width: 968px;    
+    margin: 0 0 207px;
     padding: 0;
+    overflow: hidden;
+    position: relative;
 }
 
-.callback__item {
-    display: none;
+.callback__slider {    
+    display: flex;    
+    width: 100%;
+    height: 100%;   
+    align-items: center;
+    transition: transform 0.5s ease-in-out;
+} 
+
+.callback__item {    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1 0 100%;
     flex-direction: column;
     margin: 0 auto;
+    z-index: 10;
 }
 
-.callback__item_active {
-    display: flex;
+.callback__item_hidden {
+    display: none;
 }
 
 .callback__photo {
@@ -85,13 +99,33 @@
     border-radius: 44px;
     border: none;
     margin: 128px auto 32px;
-    padding: 0;
-    object-fit: contain;
+    padding: 0;    
     z-index: 5;
+    background-position: center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 15;
+}
+
+.callback__photo_0 {
+    background-image: url(../../img/Emily.jpg);
+}
+
+.callback__photo_1 {
+    background-image: url(../../img/Bryan.jpg);
+}
+
+.callback__photo_2 {
+    background-image: url(../../img/Sam.jpg);
+}
+
+.callback__photo_3 {
+    background-image: url(../../img/Diana.jpg);
 }
 
 .callback__rectangle {
-    width: 968px;
+    width: 100%;
     background: #84A178;
     border-radius: 24px;
     display: flex;
@@ -124,24 +158,28 @@
     margin: 32px auto;
 }
 
-.callback__dotes {
-    margin: 0 auto 207px;
+.callback__dots {
     display: flex;
-    max-width: 90px;
-    min-height: 12px;
+    justify-content: center;
+    padding: 20px 0;    
 }
 
-.callback__dot {
-    background-image: url(../../img/Ellipse-7.svg);
+.callback__dot {    
     background: #D9D9D9;
     width: 12px;
     height: 12px;
     margin: 9px;
     object-fit: contain;
-    border-radius: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
 }
 
-.callback__dot_active {
+.callback__dot:hover {
+    cursor: pointer;
+  }
+
+.callback__dot.selected {
     background: #84A178;
 }
 
@@ -182,7 +220,7 @@
         padding: 29px 80px;
     }
 
-    .callback__dotes {
+    .callback__dots {
         margin: 0 auto;
     }
 }
@@ -219,7 +257,7 @@
         margin: 30px auto 14px;
     }
 
-    .callback__dotes {
+    .callback__dots {
         margin: 0 auto 48px;
     }
 }
