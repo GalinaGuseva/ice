@@ -1,0 +1,131 @@
+.popup {
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup_opened {
+    visibility: visible;
+    opacity: 1;
+}
+
+.map__btn-close {
+    display: block;
+    padding: 0px;
+    right: 20px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../../img/close-black.svg);
+    position: absolute;
+    background-color: #FCFCFC;
+}
+
+.map__btn-close:hover {
+    opacity: 0.6;
+}
+
+.map-popup {
+    width: 320px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.map__text {
+    width: 273px;
+    font-family: 'Montserrat';
+    color: #131313;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    margin: 0 auto;  
+}
+
+@media screen and (max-width: 767px) {
+    .map__btn-close {
+        width: 20px;
+        height: 20px;
+        top: -36px;
+        right: 0;
+    }
+}
+
+.map__container {
+    display: flex;
+    width: 568px;   
+    margin: 10px auto;
+    border: 2px solid #F8D24E;
+    background-color: #FCFCFC;
+    color: #131313;
+    font-family: 'Montserrat';
+    font-style: normal;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0;
+    z-index: 100;
+}
+
+.map__center {
+    display: flex;
+    width: 568px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 32px 40px;
+    z-index: 50;
+}
+
+.popup__title {
+    width: 273px;
+    font-family: 'Seymour One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .map__container {
+        width: 280px;
+        height: 100vh;
+        padding: 0;
+    }
+
+    .map__btn-close {
+        right: -24px;
+        top: 8px;
+        width: 16px;
+        height: 16px;
+    }
+
+    .map__center {
+        width: 224px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+   .map__title {
+    font-size: 16px;   
+   }  
+}
+
+   

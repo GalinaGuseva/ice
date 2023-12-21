@@ -4,15 +4,18 @@ import Main from '../Main/Main';
 import Menu from '../Menu/Menu';
 import Footer from '../Footer/Footer';
 import BuyPopup from '../BuyPopup/BuyPopup';
+import MapPopup from '../MapPopup/MapPopup';
 import IngredientsIce from '../Ingredients/IngredientsIce';
 import IngredientsCoffee from '../Ingredients/IngredientsCoffee';
 import IngredientsShake from '../Ingredients/IngredientsShake';
 import Read from '../Read/Read';
+//import { YMaps } from '@pbe/react-yandex-maps';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false),
     navigate = useNavigate(),
-    [isPopupOpen, setIsPopupOpen] = useState(false);
+    [isPopupOpen, setIsPopupOpen] = useState(false),
+    [isMapOpen, setIsMapOpen] = useState(false);
 
   function toggleMenu() {
     setIsMenuOpen(!isMenuOpen);
@@ -22,8 +25,13 @@ function App() {
     setIsPopupOpen(true);
   }
 
+  function handleMapPopupClick(e) {
+    setIsMapOpen(true);
+  }
+
   function closeAllPopups() {
     setIsPopupOpen(false);
+    setIsMapOpen(false);
   }
 
   function handleSend(data) {
@@ -41,7 +49,13 @@ function App() {
       <Routes>
         <Route
           path='/'
-          element={<Main onShow={toggleMenu} handlePopup={handlePopupClick} />}
+          element={
+            <Main
+              onShow={toggleMenu}
+              handlePopup={handlePopupClick}
+              handleMapPopup={handleMapPopupClick}
+            />
+          }
         />
         <Route
           exact
@@ -71,6 +85,7 @@ function App() {
         onClose={closeAllPopups}
         onSubmit={handleSend}
       />
+      <MapPopup isOpen={isMapOpen} onClose={closeAllPopups} />
     </div>
   );
 }

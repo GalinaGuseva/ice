@@ -285,7 +285,7 @@
 }
 
 .header__illustration {
-    background-image: url(../../img/icecream-main.svg);
+    background-image: url(../../img/icecream-m.png);
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -293,29 +293,13 @@
     border: none;
     width: 447px;
     height: 561px;
+    margin-bottom: -12px;
+    padding: 0;
     right: 94px;
     bottom: 0;
     z-index: 5;
     object-fit: contain;
-}
-
-.header__illustration_blur {
-    border: 50px rgba(252, 252, 252, 0.44);
-    background-image: url(../../img/shadow.svg);
-    position: absolute;
-    bottom: 0;
-    width: 484px;
-    height: 590px;
-    background-size: 100%;
-    right: 94px;
-    object-fit: contain;
-    padding: 0;
-    margin: 0;
-    background-repeat: no-repeat;
-    position: absolute;
-    opacity: 0.6;
-    filter: blur(50px);
-    z-index: 3;
+    filter: drop-shadow(0 0 70px rgba(252, 252, 252, 0.7));
 }
 
 .header__right-block {
@@ -512,17 +496,8 @@
         right: 93px;
         bottom: 0;
         object-fit: contain;
-        margin-bottom: -3px;
-    }
-
-    .header__illustration_blur {
-        width: 266px;
-        height: 342px;
-        right: 79.2px;
-        bottom: 0;
-        object-fit: fill;
-        margin-bottom: -3px;
-    }
+        margin-bottom: -10px;              
+    }   
 
     .header__right-block {
         width: 46px;
@@ -566,11 +541,8 @@
 
     .header__illustration {
         right: 67px;
-    }
-
-    .header__illustration_blur {
-        right: 54.2px;
-    }
+        margin-bottom: -10px;
+    }   
 
     .header__box {
         left: 158px;
@@ -585,10 +557,7 @@
     .header__illustration {
         right: 42px;
     }
-
-    .header__illustration_blur {
-        right: 30px;
-    }
+   
 }
 
 @media screen and (max-width: 600px) {
@@ -653,15 +622,8 @@
         width: 157px;
         height: 207px;
         right: 61px;
-        margin-bottom: -10px;
-    }
-
-    .header__illustration_blur {
-        width: 170px;
-        height: 219px;
-        right: 48px;
-        margin-bottom: -10px;
-    }
+        margin-bottom: -14px;      
+    }   
 
     .header__right-block {
         display: none;

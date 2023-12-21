@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Ingredients.css';
-import chocolate from '../../img/chocolate-ice-cream.svg';
+import chocolate from '../../img/chocolate.png';
 
 export default function IngredientsIce({ onSubmit }) {
   const inputValues = { name: '', phone: '', comment: '' };

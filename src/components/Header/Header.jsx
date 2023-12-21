@@ -68,7 +68,6 @@ export default function Header({ onShowMenu, openPopup }) {
         </a>
       </div>
       <div className='header__illustration'></div>
-      <div className='header__illustration_blur'></div>
       <div className='header__right-block'>
         <div className='header__right-block_top'>
           <p className='header__number'>16</p>
