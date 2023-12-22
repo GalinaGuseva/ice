@@ -1,7 +1,7 @@
 .callback {
     font-family: "Montserrat";
     background-color: #fff;
-    min-height: 1020px;
+    min-height: 1090px;
     display: flex;
     position: relative;
     margin: 0;
@@ -62,7 +62,7 @@
 
 .callback__customers { 
     width: 968px;    
-    margin: 0 0 207px;
+    margin: 0 0 227px;
     padding: 0;
     overflow: hidden;
     position: relative;
@@ -183,7 +183,7 @@
 
 @media screen and (max-width: 1024px) {
     .callback {
-        min-height: 980px;
+        min-height: 1020px;
     }
 
     .callback__wrap {
@@ -208,6 +208,7 @@
 
     .callback__rectangle {       
         min-height: 138px;
+        max-width: 700px;
     }
 
     .callback__text {
@@ -240,6 +241,7 @@
     .callback__rectangle {
         min-height: 156px;
         border-radius: 10px;
+        max-width: 490px;
     }
 
     .callback__text {
@@ -255,5 +257,12 @@
 
     .callback__dots {
         margin: 0 auto 48px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .callback__rectangle {       
+        max-width: 260px;
     }
 }

@@ -231,7 +231,7 @@
     color: #208f3e;
     padding: 0;
     text-align: center;
-    margin: 40px auto;
+    margin: 20px auto 0;
 }
 
 @media screen and (max-width: 600px) {

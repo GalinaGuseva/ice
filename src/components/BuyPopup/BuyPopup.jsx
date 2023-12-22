@@ -45,7 +45,7 @@ export default function BuyPopup({ isOpen, onClose, onSubmit }) {
 
           <form
             name='buy-choice'
-            className='popup-form'
+            className='popup__form'
             onSubmit={handleSubmit}
             noValidate
           >
