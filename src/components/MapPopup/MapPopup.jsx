@@ -19,7 +19,7 @@ export default function MapPopup({ isOpen, onClose }) {
             onClick={onClose}
           ></button>
           <h4 className='map__title'>Как нас найти</h4>
-          <YMaps>
+          <YMaps query={{ apikey: 'e5c7bdcb-4e05-4d13-a1a4-cf9a88c800e2' }}>
             <div className='map-popup'>
               <Map defaultState={{ center: [52.76, 41.44], zoom: 9 }} />
             </div>

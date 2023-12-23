@@ -41,34 +41,23 @@
 
 .map-popup {
     width: 320px;
-    height: 300px;
-    margin: 20px auto;
+    height: 240px;
+    margin: 10px auto;
 }
 
 .map__text {
-    width: 273px;
+    width: 80%;
     font-family: 'Montserrat';
-    color: #131313;
-    font-style: normal;
-    font-weight: 400;
+    color: #131313;    
     font-size: 14px;
     line-height: 1.4;
     text-align: center;
     margin: 0 auto;  
 }
 
-@media screen and (max-width: 767px) {
-    .map__btn-close {
-        width: 20px;
-        height: 20px;
-        top: -36px;
-        right: 0;
-    }
-}
-
 .map__container {
     display: flex;
-    width: 568px;   
+    width: 468px;   
     margin: 10px auto;
     border: 2px solid #F8D24E;
     background-color: #FCFCFC;
@@ -105,13 +94,12 @@
 
 @media screen and (max-width: 600px) {
     .map__container {
-        width: 280px;
-        height: 100vh;
+        width: 280px;        
         padding: 0;
     }
 
     .map__btn-close {
-        right: -24px;
+        right: 8px;
         top: 8px;
         width: 16px;
         height: 16px;
@@ -125,7 +113,12 @@
 
    .map__title {
     font-size: 16px;   
-   }  
+   } 
+   
+   
+   .map-popup {
+    width: 280px;    
+  }
 }
 
    
