@@ -1,7 +1,4 @@
-.contacts {
-    font-family: "Montserrat";
-    font-style: normal;
-    color: #131313;
+.contacts {    
     max-width: 1168px;
     display: flex;
     flex-direction: column;
@@ -33,6 +30,7 @@
     box-sizing: border-box;
     border-radius: 24px;
     padding: 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
 
 .contacts__item_left {

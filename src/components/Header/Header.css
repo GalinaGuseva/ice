@@ -88,7 +88,7 @@
     background-image: url(../../img/dots-left.svg);
     margin: 0;
     background-size: 100%;
-    left: -15px;
+    left: 0;
     bottom: 17px;
     object-fit: contain;
     background-position: center;
@@ -98,7 +98,7 @@
 .header__background_right {
     position: absolute;
     bottom: 0;
-    right: -16px;
+    right: 0px;
     height: 109px;
     width: 285px;
     background-image: url(../../img/dots-right.svg);
@@ -409,14 +409,14 @@
     .header__background_left {
         height: 34px;
         width: 110px;
-        left: -32px;
+        left: -16px;
         bottom: 1.75px;
     }
 
     .header__background_right {
         height: 80px;
         width: 182px;
-        right: -32px;
+        right: -16px;
         bottom: 0.4px;
     }
 
@@ -587,7 +587,7 @@
         background-image: url(../../img/dots-left-mob.svg);
         height: 33px;
         width: 106px;
-        left: -20px;
+        left: 0;
         bottom: 0;
     }
 
@@ -595,7 +595,7 @@
         background-image: url(../../img/dots-right-mob.svg);
         height: 49px;
         width: 130px;
-        right: -20px;
+        right: 0;
         bottom: 0;
     }
 

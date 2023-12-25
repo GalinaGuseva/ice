@@ -1,9 +1,7 @@
 .prod {
     display: flex;
-    background-color: #fff;
-    font-family: "Montserrat";
-    position: relative;
-    margin: 0 auto;
+    background-color: #fff;   
+    position: relative;   
 }
 
 .prod__background {
@@ -156,7 +154,7 @@
     text-align: center;
     letter-spacing: 0.04em;
     max-width: 246.5px;
-    height: 207px;
+    min-height: 207px;
     margin: 0 auto;
 }
 
@@ -324,7 +322,7 @@
     .prod__item-text {
         font-size: 14px;
         line-height: 176%;
-        height: 202px;
+        min-height: 202px;
         max-width: 171px;
     }
 
@@ -384,7 +382,7 @@
         font-size: 14px;
         line-height: 176%;
         max-width: 200px;
-        height: 182px;
+        min-height: 162px;
         margin: 0 auto;
     }   
 

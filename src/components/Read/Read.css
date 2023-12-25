@@ -74,6 +74,16 @@
     padding: 0;     
 }
 
+.in__link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #208f3e;
+    padding: 0;
+    text-align: center;
+    margin: 20px auto 0;
+}
+
 @media screen and (max-width: 767px) {    
     .read__container {
         width: 300px;
@@ -96,5 +106,9 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 140%;        
+    }
+
+    .in__link {
+        font-size: 12px;        
     }
 }

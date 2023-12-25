@@ -11,8 +11,7 @@
     flex-direction: column;
     max-width: 1168px;
     padding: 0 16px;
-    margin: 0 auto 11px;
-    flex: 1;
+    margin: 0 auto 11px;    
 }
 
 .footer__wrap {

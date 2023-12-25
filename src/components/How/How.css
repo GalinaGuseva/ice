@@ -258,13 +258,12 @@
 
 @media screen and (max-width: 767px) {
     .how {
-        min-height: 1564px;
+        min-height: 1664px;
     }
 
     .how__center {
         max-width: 320px;
-        padding: 60px 20px 0;
-        height: 100%;
+        padding: 60px 20px 0;       
     }
 
     .how__header {
@@ -333,9 +332,9 @@
     }
 
     .how__advantages {
-        width: 230px;
-        height: 570px;
-        padding: 43px 0 60px;
+        max-width: 230px;
+        min-height: 570px;
+        padding: 43px 0 100px;
         margin: 0 auto;
         display: flex;
         gap: 28px;
