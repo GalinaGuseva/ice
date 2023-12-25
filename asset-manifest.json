@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ice/static/css/main.90167bb4.css",
+    "main.css": "/ice/static/css/main.f907af00.css",
     "main.js": "/ice/static/js/main.55115053.js",
     "static/js/787.77bf6cd1.chunk.js": "/ice/static/js/787.77bf6cd1.chunk.js",
     "static/media/prod-fon.png": "/ice/static/media/prod-fon.3ab08890fef956830c92.png",
@@ -64,12 +64,12 @@
     "static/media/Burger.svg": "/ice/static/media/Burger.a01cdaebec0912f96d20.svg",
     "static/media/more-icon.svg": "/ice/static/media/more-icon.dea09e6c769d19c20d40.svg",
     "static/media/more.svg": "/ice/static/media/more.4c6907e2c68c143eed64.svg",
-    "main.90167bb4.css.map": "/ice/static/css/main.90167bb4.css.map",
+    "main.f907af00.css.map": "/ice/static/css/main.f907af00.css.map",
     "main.55115053.js.map": "/ice/static/js/main.55115053.js.map",
     "787.77bf6cd1.chunk.js.map": "/ice/static/js/787.77bf6cd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90167bb4.css",
+    "static/css/main.f907af00.css",
     "static/js/main.55115053.js"
   ]
 }
