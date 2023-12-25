@@ -4,9 +4,20 @@ import './Read.css';
 
 export default function Read() {
   return (
-    <div className='read'>
+    <div className='read' id='read'>
       <div className='read__container'>
         <h3 className='read__title'>Как делают мороженое?</h3>
+        <div className='read__movie'>
+          <iframe
+            width='100%'
+            height='100%'
+            src='https://www.youtube.com/embed/XOR8Nw1eRKw'
+            title='YouTube video player'
+            frameborder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+            allowFullScreen
+          ></iframe>
+        </div>
         <p className='read__text'>Мороженое изготавливается обычно из:</p>
         <p className='read__text'> - молока,</p>
         <p className='read__text'> - сливок,</p>
@@ -76,17 +87,6 @@ export default function Read() {
           Непосредственно после фризерования мороженое фасуют и закаливают
           (подвергают шоковой заморозке до -12°).
         </p>
-        <div className='read__movie'>
-          <iframe
-            width='560'
-            height='315'
-            src='https://www.youtube.com/embed/XOR8Nw1eRKw'
-            title='YouTube video player'
-            frameborder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-            allowfullscreen
-          ></iframe>
-        </div>
         <Link to='/' className='in__link link'>
           Вернуться на главную страницу
         </Link>

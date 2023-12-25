@@ -17,6 +17,10 @@ function App() {
     [isPopupOpen, setIsPopupOpen] = useState(false),
     [isMapOpen, setIsMapOpen] = useState(false);
 
+  React.useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   function toggleMenu() {
     setIsMenuOpen(!isMenuOpen);
   }

@@ -107,6 +107,7 @@ export default function BuyPopup({ isOpen, onClose, onSubmit }) {
                   value={values.name || ''}
                   onChange={handleChange}
                   required
+                  autoComplete='off'
                 />
               </div>
               <div className='popup__field'>
@@ -119,6 +120,7 @@ export default function BuyPopup({ isOpen, onClose, onSubmit }) {
                   value={values.phone || ''}
                   onChange={handleChange}
                   required
+                  autoComplete='off'
                 />
               </div>
               <div className='popup__field popup__field_comment'>
@@ -130,6 +132,7 @@ export default function BuyPopup({ isOpen, onClose, onSubmit }) {
                   className='popup__input'
                   value={values.comment || ''}
                   onChange={handleChange}
+                  autoComplete='off'
                 />
               </div>
             </fieldset>

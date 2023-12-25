@@ -1,7 +1,7 @@
 .read {
     background-image: url(../../img/prod-fon.png);
     background-position: center;
-    object-fit: contain;
+    object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;   
     width: 100%;
@@ -12,8 +12,7 @@
     margin: 0;
 }
 
-.read__container {
-    box-sizing: border-box;
+.read__container {    
     background-color: #FCFCFC;
     display: flex;
     max-width: 700px;
@@ -46,7 +45,7 @@
 .read__movie {
     width: 560px;
     height: 315px;
-    padding: 5px;    
+    padding: 10px;    
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -72,20 +71,12 @@
     font-size: 16px;
     line-height: 140%;
     color: #131313;
-    padding: 0;
-    width: 560px;    
+    padding: 0;     
 }
 
-@media screen and (max-width: 767px) {
-
-    .read {
-        width: 280px;
-        height: 459px;
-        border-radius: 10px;
-    }
-
+@media screen and (max-width: 767px) {    
     .read__container {
-        width: 280px;
+        width: 300px;
         padding: 28px 29px 28px 30px;
     }
 
@@ -97,19 +88,13 @@
 
     .read__movie {
         width: 224px;
-        height: 199px;
+        height: 199px;        
     }
-
-    .read__play {
-        margin: 82px auto;
-    }
-
+   
     .read__text {
         margin: 20px auto 0;
         font-weight: 400;
         font-size: 14px;
-        line-height: 140%;
-        width: 224px;
-        height: 140px;
+        line-height: 140%;        
     }
 }
